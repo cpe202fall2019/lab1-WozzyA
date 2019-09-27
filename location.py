@@ -12,9 +12,9 @@ class Location:
         return "Location('" + str(self.name) + "', " + str(self.lat) + ", " + str(self.lon) + ")"
 
     def __eq__(self, other):
-        if self.name == other.name and self.lat == other.lat and self.lon == other.lon
-            return true
-        return false
+        if self.name == other.name and self.lat == other.lat and self.lon == other.lon:
+            return True
+        return False
         
 
 def main():
