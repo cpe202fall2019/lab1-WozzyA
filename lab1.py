@@ -41,9 +41,10 @@ def bin_search(target, low, high, int_list):  # must use recursion
         return bin_search(target, mid, high, int_list)
     return None
 
-
+"""
 def main():
     print(bin_search(345, 0, 12, [1,3,8,14,23,45,56,123,234,345,456,567,568]))
 
 if __name__ == "__main__":
     main()
+"""
